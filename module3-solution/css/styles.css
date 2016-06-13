@@ -1,0 +1,45 @@
+
+hr.separator{
+	margin: 0px;
+}
+
+
+header p{
+	font-size: 1.8em;
+}
+
+/************Main content*******************/
+.sectionTitle1, .sectionTitle2, .sectionTitle3{
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 200%;
+	margin: 10px auto 4px;
+}
+
+#main-content{
+	background-color: rgba(65, 82, 101,.6);
+	height: 1000px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+li a{
+	text-align: center;
+	text-decoration-color: black;
+}
+
+div#bs-example-navbar-collapse-1{
+	background-color: rgba(65, 72, 101, 0.49);
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #290404;
+}
+
+#main-content{
+	background-color: rgba(65, 82, 101,.6);
+	height: 1000px;
+	margin: 20px 20px 20px 20px;	
+}
+
+}
